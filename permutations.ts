@@ -1,3 +1,5 @@
+// Link to problem: https://leetcode.com/problems/permutations/
+
 function permute(nums: number[]): number[][] {
   if (nums.length === 1) {
     return [nums.slice()];
